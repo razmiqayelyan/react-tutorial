@@ -1,6 +1,6 @@
-import { useFetch } from './useFetch';
+import { useFetch } from "./Hooks/useFetch";
 
-function Demo() {
+export function Demo() {
   const {
     data,
     isLoading,

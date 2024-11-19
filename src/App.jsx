@@ -1,9 +1,11 @@
 import React from 'react'
+import { Demo } from './Demo'
+
 
 const App = () => {
   return (
     <div>
-      <button>FETCH</button>
+      <Demo/>
     </div>
   )
 }
